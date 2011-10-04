@@ -1,0 +1,8 @@
+<package project="Mer:Trunk:Base" name="dbus-python">
+  <title>D-Bus Python Bindings</title>
+  <description>
+D-Bus python bindings for use with python programs.   
+
+</description>
+  <url>http://www.freedesktop.org/software/dbus/</url>
+</package>

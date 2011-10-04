@@ -1,0 +1,28 @@
+Name: dbus-python
+Summary: D-Bus Python Bindings
+Version: 0.83.1
+Release: 2
+Group: System/Libraries
+License: MIT
+URL: http://www.freedesktop.org/software/dbus/
+Sources:
+    - http://dbus.freedesktop.org/releases/dbus-python/%{name}-%{version}.tar.gz
+Description: D-Bus python bindings for use with python programs.
+
+PkgConfigBR:
+    - dbus-1 >= 0.90
+    - dbus-glib-1 >= 0.70
+PkgBR:
+    - python-devel
+Configure: configure
+Builder: make
+SubPackages:
+    - Name: devel
+      Summary: Libraries and headers for dbus-python
+      Group: Development/Libraries
+      Description: |
+          Headers and static libraries for hooking up custom mainloops to the dbus python
+          bindings.
+      Requires:
+          - "%name = %{version}-%{release}"
+
