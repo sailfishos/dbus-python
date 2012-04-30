@@ -1,3 +1,6 @@
+* Mon Apr 30 2012 Marko Saukko <sage@merproject.org> - 1.0.0
+- Fixes MER#299: upgrade dbus-python to recent version 1.0.0
+
 * Thu Mar 25 2010 Yi Yang <yi.y.yang@intel.com> - 0.83.1
 - Update to 0.83.1
 - Spectaclized

@@ -1,7 +1,7 @@
 Name: dbus-python
 Summary: D-Bus Python Bindings
-Version: 0.83.1
-Release: 2
+Version: 1.0.0
+Release: 1
 Group: System/Libraries
 License: MIT
 URL: http://www.freedesktop.org/software/dbus/
@@ -10,7 +10,7 @@ Sources:
 Description: D-Bus python bindings for use with python programs.
 
 PkgConfigBR:
-    - dbus-1 >= 0.90
+    - dbus-1 >= 1.4
     - dbus-glib-1 >= 0.70
 PkgBR:
     - python-devel
